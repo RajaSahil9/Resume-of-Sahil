@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color:#f4f4f4;
+    margin: 0;
+    padding: 20px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.container {
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(13, 84, 177, 0.263);
+    margin: auto;
+}
+.contact {
+    color: #A4B465;
+}
+/* Dark Mode */
+body.dark-mode {
+    background-color: #bd491c;
+    color: white;
+}
+
+body.dark-mode .container {
+    background: #1e1e1e7d;
+    color: white;
+}
+
+/* Profile */
+header {
+    text-align: right;
+    color:#A4B465;
+    background-color:azure;
+}
+
+.profile-img img {
+    width: 70px;
+    border: radius 50px;
+    margin-top: 10px;
+}
+
+/* Sections */
+section {
+    margin-top: 20px;
+    color:black;
+    margin: 0%;
+    padding:0%;
+
+}
+
+h2 {
+    color: white;
+    background-color:#273c75;
+    margin:0%;
+    padding:0%;
+}
+
+body.dark-mode h2 {
+    color: #ddd;
+}
+
+/*  From Remove here to progress and Skills Progress Bar */
+
+/* Button */
+.theme-toggle {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+body.dark-mode .theme-toggle {
+    background: white;
+    color: black;
+}
